@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Check } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/lib/supabase';
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -20,21 +21,24 @@ const ContactSection = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulando envío a Supabase (esto se conectaría a Supabase en una implementación real)
+  
     try {
-      // Aquí iría la lógica para enviar datos a Supabase
-      console.log('Formulario enviado con:', formData);
-      
-      // Simulación de envío exitoso
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
+      const { data, error } = await supabase.from('consultas').insert([
+        {
+          nombre: formData.name,
+          correo: formData.email,
+          mensaje: formData.message,
+        },
+      ]);
+  
+      if (error) throw error;
+  
       toast({
         title: "Formulario enviado correctamente",
         description: "Nos pondremos en contacto contigo pronto.",
         variant: "default",
       });
-      
+  
       // Reiniciar formulario
       setFormData({
         name: '',
@@ -42,7 +46,7 @@ const ContactSection = () => {
         message: ''
       });
     } catch (error) {
-      console.error('Error al enviar formulario:', error);
+      console.error('Error al enviar a Supabase:', error);
       toast({
         title: "Error al enviar formulario",
         description: "Por favor, intenta nuevamente.",

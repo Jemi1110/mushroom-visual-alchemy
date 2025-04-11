@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className="absolute -top-20 -left-20 w-64 h-64 bg-mushroom-lime/30 rounded-full filter blur-3xl"></div>
             <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-mushroom-mint/30 rounded-full filter blur-3xl"></div>
             <img 
-              src="/lovable-uploads/3a39fbf6-0597-47b3-990f-46e22291ecd8.png" 
+              src="/lovable-uploads/94e10c10-5320-4a9f-aa3d-1bae2ce50944.png" 
               alt="MUSHROOM Design" 
               className="w-full h-auto rounded-xl shadow-2xl relative z-10"
             />
