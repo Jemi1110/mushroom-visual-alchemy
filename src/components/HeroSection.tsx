@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col space-y-6 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-singa leading-tight">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-montserrat leading-tight">
               Diseñamos{' '}
               <span className="text-mushroom-mint">experiencias</span>{' '}
               digitales que conectan
@@ -44,7 +44,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-center mt-24">
           <p className="text-lg text-gray-500 font-medium mb-8">CONFIARON EN NOSOTROS</p>
           <div className="flex flex-wrap justify-center gap-12">
-            {/* Adding placeholder animated elements for client logos */}
+            {/* Client logos placeholders */}
             <div className="w-32 h-12 bg-gray-100 rounded-md animate-pulse"></div>
             <div className="w-32 h-12 bg-gray-100 rounded-md animate-pulse"></div>
             <div className="w-32 h-12 bg-gray-100 rounded-md animate-pulse"></div>

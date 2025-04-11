@@ -57,7 +57,7 @@ const WorksSection = () => {
     <section id="works" className="section-padding bg-gray-50">
       <div className="container mx-auto">
         <h2 className="section-title">
-          Proyectos <span className="text-mushroom-green-dark">Destacados</span>
+          Proyectos <span className="text-mushroom-green">Destacados</span>
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
@@ -74,11 +74,11 @@ const WorksSection = () => {
                   alt={work.title} 
                   className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-mushroom-green-dark/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <div className="absolute inset-0 bg-mushroom-green/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="text-white text-center">
                     <p className="text-sm tracking-wider">{work.category}</p>
                     <h3 className="text-2xl font-bold mt-2">{work.title}</h3>
-                    <button className="mt-4 px-6 py-2 border border-white rounded-full hover:bg-white hover:text-mushroom-green-dark transition-colors">
+                    <button className="mt-4 px-6 py-2 border border-mushroom-lime rounded-full hover:bg-mushroom-lime hover:text-mushroom-dark transition-colors">
                       Ver detalle
                     </button>
                   </div>

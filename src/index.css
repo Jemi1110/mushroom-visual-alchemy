@@ -61,7 +61,7 @@
   }
   
   .section-title {
-    @apply text-4xl md:text-5xl lg:text-6xl font-singa font-bold text-center mb-12 tracking-tight;
+    @apply text-4xl md:text-5xl lg:text-6xl font-montserrat font-bold text-center mb-12 tracking-tight;
   }
   
   .hoverable {

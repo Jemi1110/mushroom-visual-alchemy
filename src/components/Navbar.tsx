@@ -28,9 +28,9 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <img 
-            src="/lovable-uploads/9a118d41-bb97-4c55-8448-c73dfcc39b99.png" 
+            src="/lovable-uploads/94e10c10-5320-4a9f-aa3d-1bae2ce50944.png" 
             alt="MUSHROOM" 
-            className="h-8 md:h-10" 
+            className="h-10 md:h-12" 
             style={{ objectFit: 'contain' }}
           />
         </a>
