@@ -31,21 +31,22 @@ const Navbar = () => {
             src="/lovable-uploads/9a118d41-bb97-4c55-8448-c73dfcc39b99.png" 
             alt="MUSHROOM" 
             className="h-8 md:h-10" 
+            style={{ objectFit: 'contain' }}
           />
         </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#services" className="text-gray-800 hover:text-mushroom-green-dark font-medium transition-colors">
+          <a href="#services" className="text-gray-800 hover:text-mushroom-mint font-medium transition-colors">
             Servicios
           </a>
-          <a href="#process" className="text-gray-800 hover:text-mushroom-green-dark font-medium transition-colors">
+          <a href="#process" className="text-gray-800 hover:text-mushroom-mint font-medium transition-colors">
             Proceso
           </a>
-          <a href="#works" className="text-gray-800 hover:text-mushroom-green-dark font-medium transition-colors">
+          <a href="#works" className="text-gray-800 hover:text-mushroom-mint font-medium transition-colors">
             Proyectos
           </a>
-          <a href="#contact" className="bg-mushroom-green-dark text-white px-5 py-2 rounded-full hover:bg-mushroom-green-deep transition-colors">
+          <a href="#contact" className="bg-mushroom-mint text-white px-5 py-2 rounded-full hover:bg-mushroom-green transition-colors">
             Contacto
           </a>
         </div>
@@ -54,7 +55,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-gray-800 hover:text-mushroom-green-dark focus:outline-none"
+            className="text-gray-800 hover:text-mushroom-mint focus:outline-none"
           >
             {isOpen ? (
               <X size={24} />
@@ -74,28 +75,28 @@ const Navbar = () => {
         <div className="flex flex-col h-full justify-center items-center space-y-8 p-6">
           <a 
             href="#services" 
-            className="text-2xl text-gray-800 hover:text-mushroom-green-dark font-medium"
+            className="text-2xl text-gray-800 hover:text-mushroom-mint font-medium"
             onClick={() => setIsOpen(false)}
           >
             Servicios
           </a>
           <a 
             href="#process" 
-            className="text-2xl text-gray-800 hover:text-mushroom-green-dark font-medium"
+            className="text-2xl text-gray-800 hover:text-mushroom-mint font-medium"
             onClick={() => setIsOpen(false)}
           >
             Proceso
           </a>
           <a 
             href="#works" 
-            className="text-2xl text-gray-800 hover:text-mushroom-green-dark font-medium"
+            className="text-2xl text-gray-800 hover:text-mushroom-mint font-medium"
             onClick={() => setIsOpen(false)}
           >
             Proyectos
           </a>
           <a 
             href="#contact" 
-            className="text-2xl text-gray-800 hover:text-mushroom-green-dark font-medium"
+            className="text-2xl text-gray-800 hover:text-mushroom-mint font-medium"
             onClick={() => setIsOpen(false)}
           >
             Contacto

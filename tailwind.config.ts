@@ -30,11 +30,18 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				mushroom: {
-					'green-light': '#4C459F',  // Verde claro del brandkit
-					'green': '#4A6BA7',       // Verde medio
-					'green-dark': '#12735C',  // Verde oscuro
-					'green-deep': '#39857A',  // Verde profundo
-					'accent': '#B6E477',      // Color acento
+					'lime': '#C4ED5F',       // Primary color 1
+					'mint': '#62D491',       // Primary color 2
+					'dark': '#13270C',       // Primary color 3
+					'green': '#28531A',      // Primary color 4
+					'cream': '#FAFFE4',      // Secondary color 1
+					'aqua': '#B9E3E2',       // Secondary color 2
+					'lavender': '#C2ADEB',   // Secondary color 3
+					'purple': '#492E84',     // Secondary color 4
+					'yellow': '#EADD5B',     // Secondary color 5
+					'orange': '#DB8653',     // Secondary color 6
+					'olive': '#534817',      // Secondary color 7
+					'wine': '#511778',       // Secondary color 8
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
