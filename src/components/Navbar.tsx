@@ -30,7 +30,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/9a118d41-bb97-4c55-8448-c73dfcc39b99.png" 
             alt="MUSHROOM" 
-            className="h-10 md:h-12" 
+            className="h-8 md:h-10" 
           />
         </a>
 

@@ -13,7 +13,7 @@ const HeroSection = () => {
               digitales que conectan
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-lg">
-              MUSHROOM es una agencia creativa especializada en landing pages de alto impacto visual para marcas emergentes, startups y profesionales digitales.
+              MUSHROOM es una agencia creativa de Lima, Perú, especializada en landing pages de alto impacto visual para marcas emergentes, startups y profesionales digitales.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a 
@@ -41,13 +41,13 @@ const HeroSection = () => {
           </div>
         </div>
         
-        <div className="flex flex-wrap justify-center gap-12 mt-24 opacity-80">
-          <p className="text-lg text-gray-400 font-medium">CONFIARON EN NOSOTROS</p>
-          <div className="flex flex-wrap justify-center gap-12 mt-4">
-            <div className="w-32 h-8 bg-gray-200 rounded animate-pulse"></div>
-            <div className="w-32 h-8 bg-gray-200 rounded animate-pulse"></div>
-            <div className="w-32 h-8 bg-gray-200 rounded animate-pulse"></div>
-            <div className="w-32 h-8 bg-gray-200 rounded animate-pulse"></div>
+        <div className="flex flex-col items-center mt-24">
+          <p className="text-lg text-gray-500 font-medium mb-8">CONFIARON EN NOSOTROS</p>
+          <div className="flex flex-wrap justify-center gap-12">
+            <img src="/client-logo-placeholder.svg" alt="Cliente" className="h-10 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" />
+            <img src="/client-logo-placeholder.svg" alt="Cliente" className="h-10 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" />
+            <img src="/client-logo-placeholder.svg" alt="Cliente" className="h-10 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" />
+            <img src="/client-logo-placeholder.svg" alt="Cliente" className="h-10 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" />
           </div>
         </div>
       </div>

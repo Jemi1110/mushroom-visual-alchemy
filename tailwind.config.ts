@@ -21,7 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
-				'singa': ['"Singa Regular"', 'serif'],
+				'singa': ['"Montserrat"', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
