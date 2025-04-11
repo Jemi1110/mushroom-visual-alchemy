@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -40,7 +41,7 @@ export default {
 					'yellow': '#EADD5B',     // Secondary color 5
 					'orange': '#DB8653',     // Secondary color 6
 					'olive': '#534817',      // Secondary color 7
-					'wine': '#511778',       // Secondary color 8
+					'wine': '#511718',       // Secondary color 8
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
