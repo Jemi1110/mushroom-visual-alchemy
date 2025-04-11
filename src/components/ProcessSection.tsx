@@ -62,7 +62,7 @@ const ProcessSection = () => {
     <section id="process" className="section-padding">
       <div className="container mx-auto">
         <h2 className="section-title">
-          Nuestro <span className="text-mushroom-green-dark">Proceso</span>
+          Nuestro <span className="text-mushroom-green">Proceso</span>
         </h2>
         
         <div className="mt-16 space-y-16">
@@ -74,8 +74,8 @@ const ProcessSection = () => {
               style={{ transitionDelay: `${index * 150}ms` }}
             >
               <div className="w-full md:w-1/3 flex justify-center">
-                <div className="w-24 h-24 bg-mushroom-green-dark/10 rounded-full flex items-center justify-center">
-                  <span className="text-4xl font-bold text-mushroom-green-dark font-singa">{step.number}</span>
+                <div className="w-24 h-24 bg-mushroom-green/10 rounded-full flex items-center justify-center">
+                  <span className="text-4xl font-bold text-mushroom-green font-montserrat">{step.number}</span>
                 </div>
               </div>
               <div className="w-full md:w-2/3">
